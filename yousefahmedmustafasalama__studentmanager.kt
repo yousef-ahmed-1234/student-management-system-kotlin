@@ -1,4 +1,4 @@
-data class Student(val name: String, val age: Int, val grade: Double)
+data class Student(val name: String, val age: Int, val grade: Int)
 
 class StudentManager {
     private val students = mutableListOf<Student>()
